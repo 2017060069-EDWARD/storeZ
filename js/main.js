@@ -5,7 +5,7 @@ $('.slider-one')
     autoplaySpeed: 3000,
     dots: true,
     prevArrow:".site-slider .slider-btn .prev",
-    nextArrow:".site-slider .slider-btn .next",
+    nextArrow:".site-slider .slider-btn .next"
 });
 
 $('.slider-two')
