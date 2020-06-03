@@ -165,3 +165,160 @@ header .site-title{
     padding: 1.5em 0;
     line-height: 1.2;
 }
+
+/*products*/
+.section-bg{
+    background: white;
+    padding: 60px 0;
+}
+
+.section-title{
+    margin-bottom: 25px;
+}
+
+.section-title h2{
+    position: relative;
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 1;
+    text-transform: capitalize;
+    display: inline-block;
+    font-family:"Didact Gothic", sans-serif ;
+}
+.single-product{
+    box-shadow: inset -2px -2px 8px white,
+    inset -2px -2px 12px rgba(255, 253, 253, 0.76),
+    inset 2px 2px 4px rgba(255, 253, 253, 0.521),
+    inset 2px 2px 8px rgba(0,0,0,0.15);
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+.single-product .product-thumb{
+    margin-bottom: 20px;
+}
+img{
+    display: inline-block;
+    max-width:100%;
+}
+
+.single-product .product-title{
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+.single-product .product-title h3{
+    font-family: "didact gothic", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.single-product .product-title h3 a{
+    color: rgba(0, 0, 0, 0.795);
+    text-decoration: none;
+
+}
+
+.single-product:hover{
+    box-shadow: -2px -2px 8px white,
+     -2px -2px 12px rgba(177, 175, 175, 0.76),
+    inset 2px 2px 4px rgba(148, 147, 147, 0.521),
+     2px 2px 8px rgba(0,0,0,0.15);
+}
+.product-btns{
+    display: flex;
+    justify-content: center;
+}
+
+.single-product .product-title h3 a:hover{
+    color:#5f808d88;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.btn-small{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 32px;
+    border-radius: 50px;
+    box-shadow: -2px -2px 8px white,
+    -2px -2px 12px rgba(177, 175, 175, 0.76),
+   inset 2px 2px 4px rgba(148, 147, 147, 0.521),
+    2px 2px 8px rgba(0,0,0,0.15);
+    transition:0.4s ;
+}
+
+.btn-round
+{
+    display: inline block;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: -2px -2px 8px white,
+    -2px -2px 12px rgba(177, 175, 175, 0.76),
+   inset 2px 2px 4px rgba(148, 147, 147, 0.521),
+    2px 2px 8px rgba(0,0,0,0.15);
+    transition:0.4s ;
+}
+.btn-small:hover{
+    box-shadow: -2px -2px 8px white,
+    -2px -2px 12px rgba(177, 175, 175, 0.76),
+   inset 2px 2px 4px rgba(148, 147, 147, 0.521),
+    2px 2px 8px rgba(0,0,0,0.15);
+    color: #6f9eb1a1;
+    text-decoration: none;
+}
+.btn-round:hover{
+    box-shadow: inset -2px -2px 8px white,
+    inset -2px -2px 12px rgba(177, 175, 175, 0.76),
+    inset 2px 2px 4px rgba(148, 147, 147, 0.521),
+    inset 2px 2px 8px rgba(0,0,0,0.15);
+    color: #5f808da1;
+}
+
+.button-center
+{justify-content: center;
+ text-align: center;
+}
+
+.bttn-def{
+    display: inline block;
+    font-size: 14px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 25px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+.bttn-def:hover{
+    color: rgb(71, 110, 133);
+    box-shadow: inset -2px -2px 8px white,
+    inset -2px -2px 12px rgba(177, 175, 175, 0.76),
+    inset 2px 2px 4px rgba(148, 147, 147, 0.521),
+    inset 2px 2px 8px rgba(0,0,0,0.15);
+    color: rgba(111, 151, 173, 0.877);
+}
+
+.bttn-def:hover span{
+    display: inline-block ;
+    transform: scale(0.98);
+}
