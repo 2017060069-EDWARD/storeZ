@@ -18,3 +18,6 @@ $('.slider-two')
     slidesToScroll:1,
     autoplay:3000
 });
+
+/* LAST ROW  */
+
